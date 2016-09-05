@@ -1,1 +1,33 @@
-position-page.css
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+nav {
+	height: 60px
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+}
+
+nav .icon {
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+body {
+	background-image: url(/images/outerspace/landscape.jpeg);
+}
